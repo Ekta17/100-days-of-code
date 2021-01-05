@@ -8,6 +8,9 @@ Complete Binary tree (totally filled other than rightmost element at the last le
 
 **RightChild index:** 2*i + 2
 
+for any node i, its parent is at floor((i-1)/2)
+
+
 **Max Heap:** Root is the max element
 
 **Min Heap:** Root is the min element
