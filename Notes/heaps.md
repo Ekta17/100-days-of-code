@@ -68,5 +68,12 @@ We use array as the internal data structure to implement heaps as it provides ca
 
 All the operations other than building the heap take O(log n) time which is same time taken by self balancing trees like 
 Red-Black tree, AVL tree, but one of the key difference is to build the heap it takes O(n) time 
-where as to build a self balancing tree, it take O(nlog n) time. And also, its easier to work with arrays. 
-	
+where as to build a self balancing tree, it take O(nlog n) time. And also, its easier to work with arrays.
+
+### Java implementation of Heap
+
+PriorityQueue<T> 
+
+**Min Heap:** PriorityQueue<T> pq = new PriorityQueue<>(); 
+
+**Max Heap:** PriorityQueue<Integer> pq = new PriorityQueue<>(**Collections.reverseOrder()**);
